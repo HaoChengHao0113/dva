@@ -23,8 +23,6 @@ export default {
 
   reducers: {
     updateAdd(state, payload) {
-      console.log('updateAdd', state)
-      console.log('updateAddAction', payload.payload.num)
       state.num+=payload.payload.num
       return {
         ...state,
